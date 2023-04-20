@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+#pageTitle {
+  text-align: center;
+  font-size: 5vw;
+  margin-top: 5vw;
+  font-weight: 500;
+}
+
+#contentGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  padding: 4vw;
+}
+
+.contentItem {
+  display: flex;
+  flex-direction: column;  
+  align-items: center; 
+  padding: 3vw; 
+}
+
+.contentImage {
+  width: 20vw;
+  height: 20vw;
+}
+
+.contentName {
+  margin: 1.5vw;
+  font-size: 2.5vw;
+  font-weight: 600;
+}
+
+.contentTagline {
+  font-size: 1vw;
+  line-height: 175%;
+  font-weight: 500;
+}
